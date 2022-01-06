@@ -5,300 +5,304 @@ body{
 }
 
 
-.conatiner {
-    width: 90%;
-    margin: 50px auto;
-}
 
-.conatiner h1{
-    font-size: 40px;
-}
+/*container section starts here*/
 
+    .conatiner {
+        width: 90%;
+        margin: 50px auto;
+    }
 
-.flex-container{
-    display: flex;
-    align-items: center;
-}
+    .conatiner h1{
+        font-size: 40px;
+    }
 
-.flex-items{
-    width: 50%;
-}
+/*container section ends here*/
 
 
 
+/*flex section starts here*/
 
+    .flex-container{
+        display: flex;
+        align-items: center;
+    }
 
+    .flex-items{
+        width: 50%;
+    }
 
+/*fles section ends here*/
 
 
 
-.about-me{
-    margin-bottom: 100px;
-}
 
-.left-border {
-    border-left: 5px solid;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
-}
+/*about me section starts here*/
 
-.about-me .colorised{
-    color:tomato;
-    font-style: italic;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.about-me h1{
-    margin-left: 8px;
-    font-size: 30px;
-    margin-top: 0px;
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
+    .about-me{
+        margin-bottom: 100px;
+    }
 
-.about-me p{
-    line-height: 25px;
-}
+    .left-border {
+        border-left: 5px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
+    }
 
-.about-me .link-button{
-    text-decoration: none;
-    background: linear-gradient(to right, blue, cyan);
-    color: white;
-    padding:10px 25px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+    .about-me .colorised{
+        color:tomato;
+        font-style: italic;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .about-me h1{
+        margin-left: 8px;
+        font-size: 30px;
+        margin-top: 0px;
+        font-family: 'Sawarabi Mincho', sans-serif;
+        line-height: 40px;
+    }
 
-.about-me .profile-image{
-    width:90%;
-    margin-left: 10%;
-}
+    .about-me p{
+        line-height: 25px;
+    }
 
+    .about-me .link-button{
+        text-decoration: none;
+        background: linear-gradient(to right, blue, cyan);
+        color: white;
+        padding:10px 25px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 
+    .about-me .profile-image{
+        width:90%;
+        margin-left: 10%;
+    }
 
+/*about me section ends here*/
 
 
 
 
+/*mission & vission section starts here*/
 
+    .mission-section .title{
+        color:#2e5c63; 
+    }
 
+    .mission-section h1{
+        color:#5a3ef5;
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
+    .vision-section .flex-items{
+        width: 30%;
+        height: 450px;
+        border-radius: 20px;
+        margin-right: 3.33%;
+        box-shadow: 5px 5px 20px gray;
 
+    }
 
+    .mission{
+        padding: 0px 15px 0px 15px ;
+        background-color: #cbf3f9;
+    }
 
-.mission-section .title{
-    color:#2e5c63; 
-}
+    #illustrator-1{
+        width: 70%;
+        height: 206px;
+    }
 
-.mission-section h1{
-    color:#5a3ef5;
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-.vision-section .flex-items{
-    width: 30%;
-    height: 500px;
-    border-radius: 20px;
-    margin-right: 3.33%;
-    box-shadow: 5px 5px 20px gray;
+    .vision{
+        padding: 0px 15px 0px 15px ;
+        background-color: #eadbd4;
+    }
 
-}
+    #illustator-2{
+        width: 70%;
+        height: 206px;
+    }
 
-.mission{
-    padding: 0px 15px 0px 15px ;
-    background-color: #cbf3f9;
-}
 
-#illustrator-1{
-    width: 70%;
-    height: 206px;
-}
+    .goal{
+        padding: 0px 15px 0px 15px ;
+        background-color: #EBEDEF;
+    }
 
+    #illustrator-3 {
+        width: 206px;
+    }
 
-.vision{
-    padding: 0px 15px 0px 15px ;
-    background-color: #eadbd4;
-}
+    .mission-section{
+        margin-bottom: 100px;
+    }
 
-#illustator-2{
-    width: 70%;
-    height: 206px;
-}
+/*mission & vission section ends here*/
 
 
-.goal{
-    padding: 0px 15px 0px 15px ;
-    background-color: #EBEDEF;
-}
 
-#illustrator-3 {
-    width: 206px;
-}
+/*development section starts here*/
 
-.mission-section{
-    margin-bottom: 100px;
-}
+    .development-section {
+        margin-bottom: 100px;
+    
 
+    }
+    .developer-image {
+        width: 90%;
+        margin-right: 10%;
+        background-image: url(images/shapes/shape\ 1.png);
+    }
 
+    .developer-information .link-button{
+        text-decoration: none;
+        background: linear-gradient(to right, blue, cyan);
+        color: white;
+        padding:10px 25px;
+        border-radius: 5px;
+        margin-top: 5px;
+        display: inline-block;
+    }
 
+    .development-section h1{
+        line-height: 30px;
+    }
 
+/*development section ends here*/
 
 
 
 
+/*community section starts here*/
 
+    .community-information .link-button{
+        text-decoration: none;
+        background: linear-gradient(to right, blue, cyan);
+        color: white;
+        padding:10px 25px;
+        border-radius: 5px;
+        margin-top: 5px;
+        display: inline-block;
+    }
 
-.development-section {
-    margin-bottom: 100px;
-   
+    .community-section h1{
+        line-height: 25px;
+    }
 
-}
-.developer-image {
-    width: 90%;
-    margin-right: 10%;
-    background-image: url(images/shapes/shape\ 1.png);
-}
 
-.developer-information .link-button{
-    text-decoration: none;
-    background: linear-gradient(to right, blue, cyan);
-    color: white;
-    padding:10px 25px;
-    border-radius: 5px;
-    margin-top: 5px;
-    display: inline-block;
-}
+    .community-image{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .community-section{
+        margin-bottom: 100px;
+    }
 
+/*community section ends here*/
 
 
 
 
+/*subscribe section starts here*/
 
+    #my-image{
+        width: 90%;
+        margin-right: 10%;
 
+    }
 
+    .inputs-here{
+        height: 200px;
 
+    }
 
+    .inputs-here h3 {
+        display: table;
+        margin:0px 150px;
+    }
+    input{
+        display: block;
+        padding: 15px 10px;
+        margin:20px auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px gray;
+        width: 50%;
+        border:0;
 
+    }
 
 
+    .inputs-here .link-button{
+        text-decoration: none;
+        background: linear-gradient(to left, blue, cyan);
+        color: white;
+        padding:10px 30px;
+        border-radius: 5px;
+        margin: 30px auto;
+        display: table;
 
-.community-information .link-button{
-    text-decoration: none;
-    background: linear-gradient(to right, blue, cyan);
-    color: white;
-    padding:10px 25px;
-    border-radius: 5px;
-    margin-top: 5px;
-    display: inline-block;
-}
+    }
 
+/*subscribe section ends here*/
 
-.community-image{
-    width: 90%;
-    margin-left: 10%;
-}
-.community-section{
-    margin-bottom: 100px;
-}
 
 
 
+/*company details section starts here*/
 
+    .company-details{
+        padding: 20px 0px;
+        box-shadow: 5px 5px 30px gray;
+        margin-bottom: 100px;
+    }
 
-#my-image{
-    width: 90%;
-    margin-right: 10%;
 
-}
+    .company-details .flex-container{
+        align-items: center;
+    }
 
-.inputs-here{
-    height: 200px;
+    .company-details .flex-items{
+        text-align: center;
+        line-height: 5px;
+    }
 
-}
+/*company details section ends here*/
 
-.inputs-here h3 {
-    display: table;
-    margin:0px 150px;
-}
-input{
-    display: block;
-    padding: 15px 10px;
-    margin:20px auto;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px gray;
-    width: 50%;
-    border:0;
 
-}
 
 
-.inputs-here .link-button{
-    text-decoration: none;
-    background: linear-gradient(to left, blue, cyan);
-    color: white;
-    padding:10px 30px;
-    border-radius: 5px;
-    margin: 30px auto;
-    display: table;
+/*footer section starts here*/
 
-}
+    .footer{
+        background: linear-gradient(to left, cyan,blue);
+        padding: 15px 0px;
+        text-align: center;
+        border-radius:  50% 50% 0 0 ;
 
+    }
 
+    .footer h1{
+        color:snow;
+        font-size: 25px;
+    }
 
+    .footer-title{
+        color:tomato;
+    }
 
+    .footer p{
+        color: white;
+        font-size: 12px;
+    }
 
-.company-details{
-    padding: 10px 0px;
-    box-shadow: 5px 5px 30px gray;
-    margin-bottom: 100px;
-}
-
-
-.company-details .flex-container{
-    align-items: center;
-}
-
-.company-details .flex-items{
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
-    background: linear-gradient(to left, cyan,blue);
-    padding: 15px 0px;
-    text-align: center;
-    border-radius:  50% 50% 0 0 ;
-
-}
-
-.footer h1{
-    color:snow;
-    font-size: 25px;
-}
-
-.footer-title{
-    color:tomato;
-}
-
-.footer p{
-    color: white;
-    font-size: 12px;
-}
+/*footer section ends here*/
 
 
 
