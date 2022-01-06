@@ -1,12 +1,12 @@
 body{
     margin:0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 
 
 .conatiner {
-    width: 80%;
+    width: 90%;
     margin: 50px auto;
 }
 
@@ -22,7 +22,6 @@ body{
 
 .flex-items{
     width: 50%;
-
 }
 
 
@@ -53,6 +52,11 @@ body{
     margin-left: 8px;
     font-size: 30px;
     margin-top: 0px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.about-me p{
+    line-height: 25px;
 }
 
 .about-me .link-button{
@@ -95,7 +99,7 @@ body{
 
 .vision-section .flex-items{
     width: 30%;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     margin-right: 3.33%;
     box-shadow: 5px 5px 20px gray;
@@ -109,6 +113,7 @@ body{
 
 #illustrator-1{
     width: 70%;
+    height: 206px;
 }
 
 
@@ -119,6 +124,7 @@ body{
 
 #illustator-2{
     width: 70%;
+    height: 206px;
 }
 
 
@@ -128,7 +134,7 @@ body{
 }
 
 #illustrator-3 {
-    width: 70%;
+    width: 206px;
 }
 
 .mission-section{
@@ -144,10 +150,15 @@ body{
 
 
 
+.development-section {
+    margin-bottom: 100px;
+   
 
+}
 .developer-image {
     width: 90%;
     margin-right: 10%;
+    background-image: url(images/shapes/shape\ 1.png);
 }
 
 .developer-information .link-button{
@@ -158,10 +169,6 @@ body{
     border-radius: 5px;
     margin-top: 5px;
     display: inline-block;
-}
-
-.development-section {
-    margin-bottom: 100px;
 }
 
 
@@ -187,11 +194,11 @@ body{
     display: inline-block;
 }
 
-.comunity-image{
+
+.community-image{
     width: 90%;
     margin-left: 10%;
 }
-
 .community-section{
     margin-bottom: 100px;
 }
@@ -211,9 +218,13 @@ body{
 
 }
 
+.inputs-here h3 {
+    display: table;
+    margin:0px 150px;
+}
 input{
     display: block;
-    padding: 15px 0px;
+    padding: 15px 10px;
     margin:20px auto;
     border-radius: 10px;
     box-shadow: 2px 2px 8px gray;
@@ -221,6 +232,7 @@ input{
     border:0;
 
 }
+
 
 .inputs-here .link-button{
     text-decoration: none;
