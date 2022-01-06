@@ -1,0 +1,215 @@
+body{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.conatiner {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.conatiner h1{
+    font-size: 40px;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-items{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+.about-me{
+    margin-bottom: 100px;
+}
+
+.left-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+.about-me .colorised{
+    color:tomato;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.about-me h1{
+    margin-left: 8px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.about-me .link-button{
+    text-decoration: none;
+    background: linear-gradient(to right, blue, cyan);
+    color: white;
+    padding:10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-me .profile-image{
+    width:90%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mission-section .title{
+    color: blue; 
+}
+
+.mission-section h1{
+    color:tomato;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vision-section .flex-items{
+    width: 30%;
+    height: 400px;
+    background: linear-gradient(cyan,blue);
+    border-radius: 20px;
+    margin-right: 3.33%;
+
+}
+
+.mission{
+    padding: 0px 15px 0px 15px ;
+}
+
+.vision{
+    padding: 0px 15px 0px 15px ;
+}
+
+.goal{
+    padding: 0px 15px 0px 15px ;
+}
+
+.mission-section{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.developer-image {
+    width: 90%;
+    margin-right: 10%;
+}
+
+.developer-information .link-button{
+    text-decoration: none;
+    background: linear-gradient(to right, blue, cyan);
+    color: white;
+    padding:10px 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.development-section {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.community-information .link-button{
+    text-decoration: none;
+    background: linear-gradient(to right, blue, cyan);
+    color: white;
+    padding:10px 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.comunity-image{
+    width: 90%;
+    margin-left: 10%;
+}
+
+.community-section{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background: linear-gradient(to left, cyan,blue);
+    padding: 15px 0px;
+    text-align: center;
+
+}
+
+.footer h1{
+    color: tomato;
+    font-size: 25px;
+}
+
+.footer-title{
+    color: white;
+}
+
+.footer p{
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
