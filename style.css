@@ -17,12 +17,12 @@ body{
 
 .flex-container{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .flex-items{
     width: 50%;
+
 }
 
 
@@ -217,7 +217,7 @@ input{
     margin:20px auto;
     border-radius: 10px;
     box-shadow: 2px 2px 8px gray;
-    width: 80%;
+    width: 50%;
     border:0;
 
 }
@@ -240,7 +240,18 @@ input{
 .company-details{
     padding: 10px 0px;
     box-shadow: 5px 5px 30px gray;
+    margin-bottom: 100px;
 }
+
+
+.company-details .flex-container{
+    align-items: center;
+}
+
+.company-details .flex-items{
+    text-align: center;
+}
+
 
 
 
@@ -259,6 +270,7 @@ input{
     background: linear-gradient(to left, cyan,blue);
     padding: 15px 0px;
     text-align: center;
+    border-radius:  50% 50% 0 0 ;
 
 }
 
